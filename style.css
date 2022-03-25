@@ -9,7 +9,8 @@ button {
   transition: all 0.3s ease-in-out;
   outline: none !important ;
 }
-a:hover {
+a:hover,
+a:focus {
   text-decoration: none;
   cursor: pointer;
 }
@@ -227,6 +228,8 @@ a:hover {
 .row-no-gutters {
   margin-right: 0;
   margin-left: 0;
+  padding-top: 1em;
+  padding-bottom: 2em;
 }
 .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
@@ -615,7 +618,8 @@ h4 {
   margin-top: 24px;
 }
 .white {
-  color: #503030 !important ;
+  color: black !important ;
+  font-size: 1em;
 }
 .portfolio-thumb {
   margin-bottom: 24px;
@@ -645,7 +649,7 @@ h4 {
   background-color: #f3976c;
 }
 .tc-white {
-  color: #e7a843 !important ;
+  color: #dad155 !important ;
 }
 .btn-atomic-tangerine {
   background: #f3976c;
@@ -891,13 +895,15 @@ h4 {
   font-size: 1.2em;
   font-weight: 400;
 }
-.but {
+.accroche {
   font-size: 1.5em;
   text-shadow: 0 1px 0#1a1818;
 }
 .coord {
   font-size: 1.2em;
 }
+
+/* mise en page si on décide de supprimer les annuaires
 .partenaires {
   margin-top: 2em;
 }
@@ -912,4 +918,12 @@ h4 {
 .partenaires-liste li {
   width: 25%;
   text-align: center;
+}
+*/
+
+.contact {
+  color: #dad155 !important;
+}
+.description {
+  font-size: 1em;
 }
