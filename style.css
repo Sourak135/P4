@@ -927,3 +927,8 @@ h4 {
 .description {
   font-size: 1em;
 }
+.img-responsive {
+  width: 270px;
+  height: 270px;
+  margin: auto;
+}
