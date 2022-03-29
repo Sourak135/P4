@@ -4,13 +4,13 @@ body {
   background: #fff;
   overflow-x: hidden;
 }
-a,
+
 button {
   transition: all 0.3s ease-in-out;
   outline: none !important ;
 }
-a:hover,
-a:focus {
+
+a:hover {
   text-decoration: none;
   cursor: pointer;
 }
@@ -276,8 +276,7 @@ a:focus {
 .navbar-nav .open .dropdown-menu > li > a {
   text-align: inherit;
 }
-.nav > li a:hover,
-.nav > li a:focus {
+.nav > li a:hover {
   background: transparent;
 }
 .navbar-toggle {
@@ -381,14 +380,11 @@ nav .caret {
   margin: 0 0 5px 5px;
 }
 .btn-d,
-.btn-d:hover,
-.btn-d:focus {
+.btn-d:hover {
   color: #fff;
   background: rgb(0, 0, 0, 0.3);
 }
-button {
-  outline: none !important ;
-}
+
 .btn-rd {
   border-radius: 40px;
 }
@@ -931,4 +927,11 @@ h4 {
   width: 270px;
   height: 270px;
   margin: auto;
+}
+/*correction focus*/
+.nav-clavier:focus {
+  border: 5px rgb(194, 40, 40) dashed !important;
+}
+a:focus {
+  border: 5px rgb(194, 40, 40) dashed;
 }
